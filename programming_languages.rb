@@ -4,7 +4,6 @@ def reformat_languages(languages)
   languages.each do |hash, data|
     data.each do |key, pair|
       if key == :oo || key == :functional
-      binding.pry
       
     end
   end
